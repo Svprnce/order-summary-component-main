@@ -27,10 +27,10 @@ main{
 }
 .card{
     max-width: 400px;
-    border: 1px solid grey;
     display: flex;
     flex-direction: column;
     border-radius: 1em;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
 }
 .card-top{
     display: flex;
@@ -48,7 +48,6 @@ main{
 }
 
 .card-plan-box{
-    border:1px solid black;
     display: flex;
     padding: 1em;
     justify-content: space-between;
@@ -85,6 +84,7 @@ button{
     border-radius: 0.4em;
     padding: 0.6em;
     border: none;
+    box-shadow: 1px 0px 10px 0px rgba(114,128,167,0.9);
 }
 p:last-child{
     color: var(--color2);
