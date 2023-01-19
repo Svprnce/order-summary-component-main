@@ -21,6 +21,7 @@ img{
     text-align: center;
 }
 main{
+    background-image: url(./images/pattern-background-desktop.svg);
     min-height: 100vh;
     display: grid;
     place-content: center;
@@ -42,14 +43,13 @@ main{
 }
 .card-bottom{
     display: grid;
-    height: 65%;
-    padding: 2.5rem;
+    padding: 2rem;
     gap: 1em;
 }
 
 .card-plan-box{
     display: flex;
-    padding: 1em;
+    padding: 0.5em;
     justify-content: space-between;
     align-items: center;
     border-radius: 1em;
@@ -89,8 +89,17 @@ button{
 p:last-child{
     color: var(--color2);
 }
+.plan-price > h3{
+    font-size: 1rem;
+}
+.plan-price > p{
+    font-size: 0.8rem;
+}
 
 @media screen and (max-width:410px) {
+    main{
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
     .card{
         max-width: 300px;
     }
